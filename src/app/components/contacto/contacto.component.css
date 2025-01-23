@@ -1,0 +1,8 @@
+.icono-redes{
+    width: 65px;
+    height: 65px;
+    background-color: var(--color-secondary);
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 50%;
+}

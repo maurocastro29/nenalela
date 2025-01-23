@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --color-primary: #C31908;
+    --color-secondary: #004E39;
+    --color-secondary-light: #058001;
+    --color-text: #444444;
+    --color-accent: #C31908;
+    --typography-primary-font-family: "Poppins";
+    --typography-primary-font-weight: 600;
+    --typography-secondary-font-family: "Poppins";
+    --typography-secondary-font-weight: 400;
+    --typography-text-font-family: "Poppins";
+    --typography-text-font-weight: 400;
+    --typography-accent-font-family: "Poppins";
+    --typography-accent-font-weight: 500;
+}
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+.font-primary{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.1rem;
+}
+.text-primary{
+    color: var(--color-primary);
+}
+.text-secondary{
+    color: var(--color-secondary);
+}
+.text-secondary-light{
+    color: var(--color-secondary-light);
+}
+.text-general{
+    color: var(--color-text);
+}

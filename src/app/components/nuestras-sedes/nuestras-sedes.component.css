@@ -1,0 +1,6 @@
+.btn-sedes{
+    background-color: var(--color-primary);
+}
+.btn-sedes:hover{
+    background-color: var(--color-secondary-light);
+}

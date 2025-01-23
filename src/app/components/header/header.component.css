@@ -1,0 +1,7 @@
+.btn-header{
+    background-color: var(--color-secondary);
+}
+
+.btn-header:hover{
+    background-color: var(--color-secondary-light);
+}
